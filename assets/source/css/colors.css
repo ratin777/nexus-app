@@ -1,0 +1,15 @@
+/* -------------------------------------------------------------------- CORES (ALTERAR) */
+:root {
+  --cor-branca: #FFFFFF;
+  --cor-do-texto: #ffffff;
+  --cor-principal: #000000;
+  --cor-secundaria: #424242;
+  --cor-da-borda: #ffffff;
+  --cor-do-botao: #000000;
+  --cor-generate-button: #28e460;
+  --cor-dos-icones: #ffffff;
+  /*  REALS: #241f29
+      PLAYPIX: #090d1c
+      DUPOC: #120c16 */
+  --cor-background-plataform: #241f29;
+}

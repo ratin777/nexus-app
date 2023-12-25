@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penalty Shoot-Out</title>
+    <meta name="description" content="Penalty Shoot-Out: Jogue e aposte como um profissional.">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/source/games/penalty/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/source/games/penalty/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/source/games/penalty/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="/assets/source/css/$.css">
+    <link rel="stylesheet" href="/assets/source/css/colors.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header class="header-container">
+        <button><a href="../../../../index.html"><i class="bi bi-arrow-left-circle-fill"></i></a></button>
+        <img id="header-logo" src="#" alt="Penalty Shoot-out Logo" loading="lazy">
+        <!-- <button><i class="bi-person-circle"></i></button> -->
+    </header>
+
+
+
+    <main>
+
+        <section>
+            <h1 class="teste">SEUS RESULTADOS</h1>
+            <div class="history-green-red"></div>
+        </section>
+        
+        <section class="container-chat-app">
+            <div class="chat-img-container">
+                <img class="chat-img" width="50px" src="/assets/source/img/buddy.png" alt="Buddy">
+            </div>
+            <div class="chat-container">
+                <div class="chat" id="chat">
+                    <div class="message-container">
+                        <h2>Relaxe, respire fundo e prepare-se para apostar como profissional!</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button class="pulsating-button" id="generateButton" onclick="generateMessages()" defer>
+            GERAR SINAL COM IA
+            <div id="countdown-container"></div>
+        </button>
+
+        <section>
+            <iframe id="meuIframe" src="" class="plataform" loading="eager"></iframe>
+        </section>
+
+        <section id="aplicativo">
+            <h3 class="aplicativo-title">Aplicativos</h3>
+            <p class="aplicativo-description">Baixe agora em seu Iphone ou Android</p>
+            <div>
+                <button> <i class="bi-apple"></i></button>
+                <button> <i class="bi-google-play"></i></button>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h4 class="contato-title">CONTATO</h3>
+            <p class="contato-description">Entre em contato conosco através do nosso Instagram!</p>
+            <a href="#" id="instagram-link" target="_blank">
+                <i class="bi-instagram"></i>
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p id="direitos-autorais">&copy;<br> All rights reserved <br></p>
+    </footer>
+
+    <div id="audioContainer">
+        <audio id="notificationSound" src="/assets/source/sound/green.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="edit.js" defer></script>
+    <script src="/assets/source/games/penalty/penalty.js" defer></script>
+    <script src="/assets/source/scripts/security.js" defer></script>
+
+</body>
